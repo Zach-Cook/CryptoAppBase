@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Crypto Base App #
 
 Custom Boiler Plate for setting up a React JS and Truffle Web Dapp
@@ -25,3 +26,7 @@ The smart contracts artifacts are stored in the ReactJS src/contract-artifacts/ 
         1. remove src/contract-artifacts
             * this dir will be recreated upon migration
 
+=======
+# This is a TodoList DApp #
+Users can upload delete and mark checked to do list items
+>>>>>>> 313a3cfb370b572780a8dbcd45597e284bb48815
