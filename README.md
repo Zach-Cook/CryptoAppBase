@@ -7,8 +7,8 @@ Custom Boiler Plate for setting up a React JS and Truffle Web Dapp
 3. Styled Components for styling
 
 ## Architechture ##
-This app uses a mono-repo structure.
-It allows for mulitple package.json files. This is to separate Front End and Smart Contract dependencies.
+This setup separates the contract development and the web client development into two different directories.
+
 
 
 ### Smart Contract ###
