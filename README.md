@@ -24,4 +24,6 @@ The smart contracts artifacts are stored in the ReactJS src/contract-artifacts/ 
     3. cd into web client
         1. remove src/contract-artifacts
             * this dir will be recreated upon migration
+2. To add to a different remote url repository:
+    1. git remote set-url origin <Link>
 
