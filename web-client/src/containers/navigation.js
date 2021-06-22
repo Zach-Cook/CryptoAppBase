@@ -12,9 +12,6 @@ export default function NavigationContainer() {
 
     const { userState } = useLoadCurrentUser()
 
-    console.log(userState)
-
-
     return (
         <Navigation>
 
