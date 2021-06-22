@@ -16,12 +16,15 @@ export default function Home(){
     return (
         <>
             <HeaderContainer>
-                <NavigationContainer/>
+                <NavigationContainer userState={userState}/>
             </HeaderContainer>
             <BodyContainer>
                 <MainContainer>
-                    <h1>{userState ? userState.account : null}</h1>
-                    <button onClick={loadTheUser}>Connect</button>
+                    { userState ?
+                        null
+                        :
+                        <button onClick={loadTheUser}>Connect</button>
+                    }
                 </MainContainer>
             </BodyContainer>
             <FooterContainer>

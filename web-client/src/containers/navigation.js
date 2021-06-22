@@ -4,17 +4,16 @@ import React from 'react'
 import { Navigation } from '../components';
 
 
-// custom hooks
-import useLoadCurrentUser from '../hooks/useLoadCurrentUser'
 
+export default function NavigationContainer({userState}) {
 
-export default function NavigationContainer() {
-
-    const { userState } = useLoadCurrentUser()
 
     return (
         <Navigation>
-
+            <Navigation.NavigationInner>
+            <Navigation.TitleText>Account: {userState ? userState.account : null}</Navigation.TitleText>
+            <Navigation.TitleText>DecentralTube</Navigation.TitleText>
+            </Navigation.NavigationInner>
         </Navigation>
 
     )
