@@ -11,7 +11,7 @@ export default function NavigationContainer({userState}) {
     return (
         <Navigation>
             <Navigation.NavigationInner>
-            <Navigation.TitleText>DecentralTube</Navigation.TitleText>
+            <Navigation.TitleText>Boiler Plate</Navigation.TitleText>
             {
                 userState ?
                 <div style={{display: "flex", justifyContent: "space-between", alignItems: "center", width: "40%"}}>

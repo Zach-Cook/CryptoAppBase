@@ -1,6 +1,5 @@
 import React from 'react';
 import HeaderContainer from '../containers/header';
-import BodyContainer from '../containers/body';
 import MainContainer from '../containers/main';
 import NavigationContainer from '../containers/navigation';
 import FooterContainer from '../containers/footer';
@@ -18,7 +17,6 @@ export default function Home(){
             <HeaderContainer>
                 <NavigationContainer userState={userState}/>
             </HeaderContainer>
-            <BodyContainer>
                 <MainContainer>
                     { userState ?
                         null
@@ -26,7 +24,6 @@ export default function Home(){
                         <button onClick={loadTheUser}>Connect</button>
                     }
                 </MainContainer>
-            </BodyContainer>
             <FooterContainer>
                 <NavigationContainer/>
             </FooterContainer>
